@@ -39,13 +39,13 @@ Table of Contents:
 - [Contributing](#contributing)
 - [License](#license)
       
-## Installation
+## Installation :computer:
 
 Appwrite backend server is designed to run in a container environment. Running your server is as easy as running one command from your terminal. You can either run Appwrite on your localhost using docker-compose or on any other container orchestration tool like Kubernetes, Docker Swarm or Rancher.
 
 The easiest way to start running your Appwrite server is by running our docker-compose file. Before running the installation command make sure you have [Docker](https://www.docker.com/products/docker-desktop) installed on your machine:
 
-### Unix
+### Unix :clipboard:
 
 ```bash
 docker run -it --rm \
@@ -55,7 +55,7 @@ docker run -it --rm \
     appwrite/install
 ```
 
-### Windows
+### Windows :clipboard:
 
 #### CMD
 
@@ -67,7 +67,7 @@ docker run -it --rm ^
     appwrite/install
 ```
 
-#### PowerShell
+#### PowerShell 
 
 ```powershell
 docker run -it --rm ,
@@ -82,7 +82,7 @@ Once the Docker installation completes, go to http://localhost to access the App
 
 For advanced production and custom installation, check out our Docker [environment variables](docs/tutorials/environment-variables.md) docs. You can also use our public [docker-compose.yml](https://appwrite.io/docker-compose.yml) file to manually set up and environment.
 
-## Getting Started
+## Getting Started :tada:
 
 Getting started with Appwrite is as easy as creating a new project, choosing your platform and integrating its SDK in your code. You can easily get started with your platform of choice by reading one of our Getting Started tutorials.
 
@@ -92,7 +92,7 @@ Getting started with Appwrite is as easy as creating a new project, choosing you
 * Getting Started for Android (Coming soon...)
 * Getting Started for iOS (Coming soon...)
 
-### Services
+### Services :bookmark_tabs:
 
 * [**Account**](https://appwrite.io/docs/client/account) - Manage current user authentication and account. Track and manage the user sessions, devices, sign-in methods, and security logs.
 * [**Users**](https://appwrite.io/docs/server/users) - Manage and list all project users when in admin mode.
@@ -104,15 +104,15 @@ Getting started with Appwrite is as easy as creating a new project, choosing you
 
 For the complete API documentation, visit [https://appwrite.io/docs](https://appwrite.io/docs). For more tutorials, news and announcements check out our [blog](https://medium.com/appwrite-io) and [Discord Server](https://discord.gg/GSeTUeA).
 
-### SDKs
+### SDKs :pushpin: 
 
 Below is a list of currently supported platforms and languages. If you wish to help us add support to your platform of choice, you can go over to our [SDK Generator](https://github.com/appwrite/sdk-generator) project and view our [contribution guide](https://github.com/appwrite/sdk-generator/blob/master/CONTRIBUTING.md).
-
-#### Client
+ 
+#### Client :pushpin:
 * ✅ [Web](https://github.com/appwrite/sdk-for-js) (Maintained by the Appwrite Team)
 * ✅ [Flutter](https://github.com/appwrite/sdk-for-flutter) (Maintained by the Appwrite Team)
 
-#### Server
+#### Server :pushpin:
 * ✅ [NodeJS](https://github.com/appwrite/sdk-for-node) (Maintained by the Appwrite Team)
 * ✅ [PHP](https://github.com/appwrite/sdk-for-php) (Maintained by the Appwrite Team)
 * ✅ [Deno](https://github.com/appwrite/sdk-for-deno) - **Beta** (Maintained by the Appwrite Team)
@@ -123,17 +123,17 @@ Below is a list of currently supported platforms and languages. If you wish to h
 
 Looking for more SDKs? - Help us by contributing a pull request to our [SDK Generator](https://github.com/appwrite/sdk-generator)!
 
-## Contributing
+## Contributing :hearts:
 
 All code contributions - including those of people having commit access - must go through a pull request and approved by a core developer before being merged. This is to ensure proper review of all the code.
 
 We truly ❤️ pull requests! If you wish to help, you can learn more about how you can contribute to this project in the [contribution guide](CONTRIBUTING.md).
 
-## Security
+## Security closed_lock_with_key:
 
 For security issues, kindly email us [security@appwrite.io](mailto:security@appwrite.io) instead of posting a public issue in GitHub.
-
-## Follow Us
+ 
+## Follow Us  :envelope:
 
 Join our growing community around the world! Follow us on [Twitter](https://twitter.com/appwrite_io), [Facebook Page](https://www.facebook.com/appwrite.io), [Facebook Group](https://www.facebook.com/groups/appwrite.developers/) or join our live [Discord server](https://discord.gg/GSeTUeA) for more help, ideas, and discussions.
 
